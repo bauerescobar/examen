@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="archivos2.js"></script>
+    <title>Home</title>
+    <style>
+        body {
+            background-image: url("imagenes/ss.jpg");
+            background-position: center 25%;
+            background-size: cover;
+        }
+
+        .bcarrito {
+            background-color: transparent;
+            border-style: none;
+        }
+
+        .tit {
+            color: rgb(15, 153, 26);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row align-items-stretch justify-content-between">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                    <a class="navbar-brand" href="#">Onlinefood</a>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <button class="bcarrito"> <img src="imagenes/compra.png"
+                                class="nav-link dropdown-toggle img-fluid" height="90px" width="90px" href="#"
+                                id="bcarrito"></img> </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+            <h1 class="display-4 mt-4 tit">Lista de Productos</h1>
+            <p class="lead tit">Selecciona uno de nuestros productos</p>
+        </div>
+
+        <div class="container" id="lista-productos">
+
+            <div class="card-deck mb-3 text-center">
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Hamburguesa</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/hamburguesa.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">Q. <span class="Hamburguesa">60</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>1/Lb de Carne con aros de cebolla caramelizada</li>
+                            <li>papas Fritas</li>
+                            <li>Gaseosa</li>
+                        </ul>
+                        <button href="" class="btn btn-block btn-primary agregar-carrito"
+                            id="Hamburguesa">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Lasaña ala boloñesa</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/fideos.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">Q. <span class="Lasaña-ala-boloñesa">50</span>
+                        </h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>1Lb de fideos con sals a la boloñesa</li>
+                            <li>Pan con ajo o con mantequilla</li>
+                            <li>Gaseosa o Fesco</li>
+                        </ul>
+                        <button href="" class="btn btn-block btn-primary agregar-carrito"
+                            id="Lasaña-ala-boloñesa">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Pizza</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/pizza.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">Q. <span class="Pizza">120</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>Pizza grande de 24 porciiones </li>
+                            <li>con ingredientes a eleccion (5 Carnes,Peperoni,Jamon,Americana)</li>
+                            <li>1LT de Gaseosa</li>
+                        </ul>
+                        <button href="" class="btn btn-block btn-primary agregar-carrito" id="Pizza">Comprar</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-deck mb-3 text-center">
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Tacos mexicanos</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/tacos.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">Q. <span class="Tacos-mexicanos">30</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li></li>
+                            <li> 3 tacos 500grs de carne de res o de cerdo</li>
+                            <li>Gaseosa</li>
+                        </ul>
+                        <button href="" class="btn btn-block btn-primary agregar-carrito"
+                            id="Tacos-mexicanos">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Pie de queso</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/pie.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">Q. <span class="Pie-de-queso">85</span></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li></li>
+                            <li>Pie de Queso con salsa de fresa</li>
+                            <li>Para 12 personas</li>
+
+                        </ul>
+                        <button href="" class="btn btn-block btn-primary agregar-carrito"
+                            id="Pie-de-queso">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Ensalda</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/ensalada.png" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">Q. <span class="Ensalda">25</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>Ensaldad con pecucha de pollo ala plancha</li>
+                            <li>aderesos</li>
+                            <li>Gaseoa o fesco</li>
+                        </ul>
+                        <button href="" class="btn btn-block btn-primary agregar-carrito" id="Ensalda">Comprar</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
